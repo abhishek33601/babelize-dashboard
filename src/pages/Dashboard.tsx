@@ -1,17 +1,19 @@
 import { getStats } from "../api/fakeApi";
 import StatsCard from "../components/StatsCard";
+import { useTranslation } from "react-i18next";
 
 const Dashboard = () => {
+  const { t } = useTranslation();
   const stats = getStats();
 
   return (
     <div className="content">
-      <h2>Analytics Overview</h2>
+      <h2>{t("analytics")}</h2>
 
       <div className="stats">
-        <StatsCard title="Total Revenue" value={stats.revenue} />
-        <StatsCard title="Active Users" value={stats.users} />
-        <StatsCard title="Conversion Rate" value={stats.conversion} />
+        <StatsCard title={t("revenue")} value={stats.revenue} />
+        <StatsCard title={t("users")} value={stats.users} />
+        <StatsCard title={t("conversion")} value={stats.conversion} />
       </div>
     </div>
   );
