@@ -1,15 +1,16 @@
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
-const Sidebar = () => {
+const Sidebar = () => {const { t } = useTranslation();
   return (
     <div className="sidebar">
-      <h2>Babelize Admin</h2>
+      <h2>{t("sidebar.babelizeAdmin")}</h2>
       <nav>
-        <Link to="/">Dashboard</Link>
-        <Link to="/users">Users</Link>
+        <Link to="/">{t("sidebar.dashboard")}</Link>
+        <Link to="/users">{t("sidebar.users")}</Link>
       </nav>
-    </div>
-  );
+    </div>);
+
 };
 
 export default Sidebar;
