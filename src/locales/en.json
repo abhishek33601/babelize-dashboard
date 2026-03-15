@@ -1,0 +1,21 @@
+{
+  "header": {
+    "lastLogin": "Last login:",
+    "welcomeBackAdmin": "Welcome back, Admin"
+  },
+  "language-switcher": {
+    "en": "EN",
+    "hi": "HI"
+  },
+  "sidebar": {
+    "babelizeAdmin": "Babelize Admin",
+    "dashboard": "Dashboard",
+    "users": "Users"
+  },
+  "users": {
+    "name": "Name",
+    "role": "Role",
+    "status": "Status",
+    "userManagement": "User Management"
+  }
+}
