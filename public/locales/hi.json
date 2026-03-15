@@ -1,0 +1,21 @@
+{
+  "header": {
+    "lastLogin": "अंतिम लॉगिनः",
+    "welcomeBackAdmin": "आपका स्वागत है वापस, व्यवस्थापक"
+  },
+  "language-switcher": {
+    "en": "EN",
+    "hi": "HI"
+  },
+  "sidebar": {
+    "babelizeAdmin": "Babelize Admin",
+    "dashboard": "डैशबोर्ड",
+    "users": "Users"
+  },
+  "users": {
+    "name": "नाम",
+    "role": "भूमिका भूमिका",
+    "status": "स्थिति",
+    "userManagement": "उपयोगकर्ता प्रबंधन उपयोगकर्ता प्रबंधन"
+  }
+}
